@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoviePreferencesApp.DataAccess", "MyMoviePreferencesApp.DataAccess\MyMoviePreferencesApp.DataAccess.csproj", "{CF40FA69-8BF8-4A4C-B020-84BC115B9FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoviePreferencesApp.Core", "MyMoviePreferencesApp.Core\MyMoviePreferencesApp.Core.csproj", "{2A359AC2-25AA-4374-A2D9-C138F86A88BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoviePreferencesApp.Api", "MyMoviePreferencesApp.Api\MyMoviePreferencesApp.Api.csproj", "{44563389-E417-47A1-8EB0-0538A54AC706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF40FA69-8BF8-4A4C-B020-84BC115B9FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF40FA69-8BF8-4A4C-B020-84BC115B9FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF40FA69-8BF8-4A4C-B020-84BC115B9FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF40FA69-8BF8-4A4C-B020-84BC115B9FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A359AC2-25AA-4374-A2D9-C138F86A88BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A359AC2-25AA-4374-A2D9-C138F86A88BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A359AC2-25AA-4374-A2D9-C138F86A88BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A359AC2-25AA-4374-A2D9-C138F86A88BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44563389-E417-47A1-8EB0-0538A54AC706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44563389-E417-47A1-8EB0-0538A54AC706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44563389-E417-47A1-8EB0-0538A54AC706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44563389-E417-47A1-8EB0-0538A54AC706}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
