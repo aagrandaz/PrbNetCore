@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoviePreferencesApp.DataA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoviePreferencesApp.Core", "MyMoviePreferencesApp.Core\MyMoviePreferencesApp.Core.csproj", "{2A359AC2-25AA-4374-A2D9-C138F86A88BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoviePreferencesApp.Api", "MyMoviePreferencesApp.Api\MyMoviePreferencesApp.Api.csproj", "{44563389-E417-47A1-8EB0-0538A54AC706}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoviePreferencesApp.Api", "MyMoviePreferencesApp.Api\MyMoviePreferencesApp.Api.csproj", "{39A98F8E-41F3-4B46-B138-101B9B471981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{2A359AC2-25AA-4374-A2D9-C138F86A88BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A359AC2-25AA-4374-A2D9-C138F86A88BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A359AC2-25AA-4374-A2D9-C138F86A88BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44563389-E417-47A1-8EB0-0538A54AC706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44563389-E417-47A1-8EB0-0538A54AC706}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44563389-E417-47A1-8EB0-0538A54AC706}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44563389-E417-47A1-8EB0-0538A54AC706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A98F8E-41F3-4B46-B138-101B9B471981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A98F8E-41F3-4B46-B138-101B9B471981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A98F8E-41F3-4B46-B138-101B9B471981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A98F8E-41F3-4B46-B138-101B9B471981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
