@@ -1,7 +1,4 @@
 using MyMoviePreferencesApp.DataAccess.Entities;
-
-namespace MyMoviePreferencesApp.DataAccess;
-
 using Microsoft.EntityFrameworkCore;
 
 namespace MyMoviePreferencesApp.DataAccess

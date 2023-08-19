@@ -1,20 +1,34 @@
+using System.Collections.Generic;
+using System.Linq;
 using MyMoviePreferencesApp.Api.DTOs;
+using MyMoviePreferencesApp.Api.Services;
+using MyMoviePreferencesApp.Core.DTOs;
+using MyMoviePreferencesApp.Core.Entities;
+using MyMoviePreferencesApp.Core.Repositories;
 
-namespace MyMoviePreferencesApp.Api.Services;
-
-public class PreferenceService : IPreferenceService
+namespace MyMoviePreferencesApp.Core.Services
 {
-    // Inyectar cualquier dependencia necesaria, como repositorios, aquí
-
-    public PreferenceDto AddUserPreference(UserPreferenceDto userPreferenceDto)
+    public class PreferenceService : IPreferenceService
     {
-        // Implementa la lógica para agregar la preferencia de un usuario y retornar el DTO correspondiente
-    }
+        private readonly IPreferenceRepository _preferenceRepository;
 
-    public IEnumerable<PreferenceDto> GetUserPreferences(int userId)
-    {
-        // Implementa la lógica para obtener las preferencias de un usuario y retornar DTOs correspondientes
-    }
+        public PreferenceService(IPreferenceRepository preferenceRepository)
+        {
+            _preferenceRepository = preferenceRepository;
+        }
 
-    // Implementa otros métodos del IPreferenceService según tus necesidades
+        public IEnumerable<PreferenceDto> GetUserPreferences(int userId)
+        {
+            var userPreferences = _preferenceRepository.GetUserPreferences(userId);
+
+            var preferenceDtos = userPreferences.Select(preference => new PreferenceDto
+            {
+                PreferenceID = preference.PreferenceID,
+                UserID = preference.UserID,
+                GenreID = preference.GenreID
+            }).ToList();
+
+            return preferenceDtos;
+        }
+    }
 }

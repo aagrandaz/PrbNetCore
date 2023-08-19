@@ -1,17 +1,6 @@
 using Microsoft.OpenApi.Models;
 using MyMoviePreferencesApp.Api.Services;
 
-namespace MyMoviePreferencesApp.Api;
-
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using MyMoviePreferencesApp.DataAccess;
-using MyMoviePreferencesApp.Services;
-
 namespace MyMoviePreferencesApp.Api
 {
     public class Startup
